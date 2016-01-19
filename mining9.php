@@ -1,5 +1,20 @@
 <?php
 
+$servername ="dragon.kent.ac.uk";
+$username ="m07_reslink";
+$password ="6adeseu";
+$dbname ="reslink";
+
+// Create connection
+$conn = new mysqli($dragon.kent.ac.uk, $m07_reslink, $6adeseu, $reslink);
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+} 
+
+
+
+
 if(isset($_POST['resURL'])){
 	$resURL = $_POST['resURL'];
 
